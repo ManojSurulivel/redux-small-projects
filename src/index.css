@@ -1,0 +1,173 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+.app{
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid red;
+}
+.p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}.todo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auth{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.auth-display{
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid blue;
+}
+.login{
+  color:#4CAF50
+}
+.logout{
+  color: #ff0000
+}
+
+.theme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* styles.css */
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+.btn-theme{
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+.cart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-cart-inc{
+  margin:10px;
+  color:white;
+  background-color:green;
+  border-radius:5px;
+  cursor:pointer;
+}
+.btn-cart-dec{
+  margin:10px;
+  color:white;
+  background-color:red;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.btn-cart-remove{
+  margin:10px;
+  color:white;
+  background-color:grey;
+  border-radius:5px;
+  cursor:pointer;
+}
+.add-btn{
+  margin:10px;
+  color:white;
+  background-color:blue;
+  border-radius:5px;
+  cursor:pointer;
+}
+.total{
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.total:hover{
+  background-color:  rgb(250,235,205);
+}
+.fav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fav-btn{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.remove-or-add{
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color:  white;
+  background-color: #4CAF50;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.remove-or-add:hover{
+  background-color: hsl(122, 39%, 39%);
+
+}
+.weather{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-input{
+  margin: 10px;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.weather-input:hover{
+  background-color: antiquewhite;
+}
+.weather-btn{
+   background-color: red;
+   color: white;
+   font-size: 1rem;
+   font-weight: bold;
+   border: 1px solid black;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.weather-btn:hover{
+  background-color: hsl(0, 100%, 40%);
+}
