@@ -7,6 +7,7 @@ import ThemeReducer from "../slices/ThemeSlice";
 import CartReducer from "../slices/CartSlice";
 import FavoritesReducer from "../slices/FavoritesSlice";
 import WeatherReducer from "../slices/WeatherSlice";
+import NotesReducer from "../slices/NotesSlice";
 
 export const store = configureStore({
   reducer: {
@@ -18,6 +19,7 @@ export const store = configureStore({
     cart: CartReducer,
     favorites: FavoritesReducer,
     weather: WeatherReducer,
+    notes: NotesReducer,
 
   },
 });

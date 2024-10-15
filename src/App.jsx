@@ -8,6 +8,7 @@ import Theme from "./components/Theme";
 import Cart from "./components/Cart";
 import Favorites from "./components/Favorites";
 import WeatherDashboard from "./components/WeatherDashboard";
+import NoteApp from "./components/NoteApp";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Cart /><hr />
       <Favorites /><hr />
       <WeatherDashboard /><hr />
+      <NoteApp /> <hr />
     </div>
   );
 }
