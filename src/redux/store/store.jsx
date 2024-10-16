@@ -8,6 +8,9 @@ import CartReducer from "../slices/CartSlice";
 import FavoritesReducer from "../slices/FavoritesSlice";
 import WeatherReducer from "../slices/WeatherSlice";
 import NotesReducer from "../slices/NotesSlice";
+import FormReducer from "../slices/FormSlice";
+import ProductSlice from "../slices/ProductSlice";
+import FilterSlice from "../slices/FilterSlice";
 
 export const store = configureStore({
   reducer: {
@@ -20,6 +23,8 @@ export const store = configureStore({
     favorites: FavoritesReducer,
     weather: WeatherReducer,
     notes: NotesReducer,
-
+    form: FormReducer,
+    products: ProductSlice,
+    filters: FilterSlice,
   },
 });

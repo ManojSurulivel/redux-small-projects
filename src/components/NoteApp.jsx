@@ -45,7 +45,7 @@ function NoteApp() {
         ref={inputRef}
         placeholder="Add a new note"
       />
-      <button style={{marginLeft:"10px ",padding:"5px 10px"}} onClick={handleAddNote}>Add Note</button>
+      <button className='btn-note-add' onClick={handleAddNote}>Add Note</button>
 
       <ul>
         {notes.map((note) => (
@@ -57,14 +57,15 @@ function NoteApp() {
                   type="text"
                   value={editText}
                   onChange={(e) => setEditText(e.target.value)}
+                  placeholder='Add update note'
                 />
-                <button style={{marginLeft:"10px ",padding:"5px 10px"}} onClick={handleUpdateNote}>Update</button>
+                <button className='btn-note-update' onClick={handleUpdateNote}>Update</button>
               </>
             ) : (
               <>
-                <p style={{margin:"20px",padding:"10px"}}>{note.text}</p>
-                <button style={{marginLeft:"10px ",padding:"5px 10px"}} onClick={() => handleEditNote(note.id, note.text)}>Edit</button>
-                <button style={{marginLeft:"10px ",padding:"5px 10px"}} onClick={() => dispatch(deleteNote(note.id))}>Delete</button>
+                <p  className='note-text'>{note.text}</p>
+                <button className='btn-note-edit' onClick={() => handleEditNote(note.id, note.text)}>Edit</button>
+                <button className='btn-note-delete' onClick={() => dispatch(deleteNote(note.id))}>Delete</button>
               </>
             )}
           </li>

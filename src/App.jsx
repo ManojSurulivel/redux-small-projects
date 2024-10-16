@@ -9,6 +9,8 @@ import Cart from "./components/Cart";
 import Favorites from "./components/Favorites";
 import WeatherDashboard from "./components/WeatherDashboard";
 import NoteApp from "./components/NoteApp";
+import FormComponent from "./components/FormComponent";
+import ProductFilter from "./components/ProductFilter";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Favorites /><hr />
       <WeatherDashboard /><hr />
       <NoteApp /> <hr />
+      <FormComponent /> <hr />
+      <ProductFilter /><hr />
     </div>
   );
 }
