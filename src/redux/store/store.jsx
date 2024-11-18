@@ -11,6 +11,8 @@ import NotesReducer from "../slices/NotesSlice";
 import FormReducer from "../slices/FormSlice";
 import ProductSlice from "../slices/ProductSlice";
 import FilterSlice from "../slices/FilterSlice";
+import LanguageSlice from  "/Users/manoj/Documents/Redux-small-projects/src/redux/slices/LanguageSlice.jsx";
+
 
 export const store = configureStore({
   reducer: {
@@ -26,5 +28,6 @@ export const store = configureStore({
     form: FormReducer,
     products: ProductSlice,
     filters: FilterSlice,
+    language: LanguageSlice,
   },
 });

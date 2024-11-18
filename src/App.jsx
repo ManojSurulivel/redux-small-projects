@@ -11,6 +11,7 @@ import WeatherDashboard from "./components/WeatherDashboard";
 import NoteApp from "./components/NoteApp";
 import FormComponent from "./components/FormComponent";
 import ProductFilter from "./components/ProductFilter";
+import Language from "./components/Language";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <NoteApp /> <hr />
       <FormComponent /> <hr />
       <ProductFilter /><hr />
+      <Language /><hr />
     </div>
   );
 }

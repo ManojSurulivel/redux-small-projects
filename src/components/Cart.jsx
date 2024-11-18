@@ -3,11 +3,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import { addItemToCart, removeItemFromCart, increaseQuantity, decreaseQuantity } from '../redux/slices/CartSlice';
 
 const products = [
-  { id: 1, name: 'Product 1', price: 100 },
-  { id: 2, name: 'Product 2', price: 200 },
-  { id: 3, name: 'Product 3', price: 300 },
+  { id: 1, name: 'Shirts👔', price: 100 },
+  { id: 2, name: 'Pants👖', price: 200 },
+  { id: 3, name: 'Shoes🥾', price: 300 },
 ];
-let t
+
 
 function App() {
   const cartItems = useSelector((state) => state.cart.cartItems);  // Access cart items from Redux state
