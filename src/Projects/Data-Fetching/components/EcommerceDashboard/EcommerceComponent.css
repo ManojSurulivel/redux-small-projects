@@ -1,0 +1,46 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .product-list {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .cart {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart ul li {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,49 @@
+.button-top-right {
+    margin: 20px;
+    position: absolute;
+    right: 70px;        /* Distance from the right of the container */
+    padding: 5px ;
+    color: black;
+    background-color: #ff0000b6; /* Blue background */
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+    .ui-state-container{
+        display: flex; /* Flexbox for two columns */
+        height: 100vh;
+        margin: 10px; 
+        /* Full viewport height */
+    }
+
+  
+      .ui-content {
+        flex-grow: 1; /* Main content takes the remaining width */
+        background-color: #ecf0f1; /* Light background */
+        padding: 20px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: green;
+      }
+
+    .ui-headings{
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items:center ;  
+    }
+    .ui-headings li a:hover{
+        color: sandybrown;
+    }
+    .ui-headings li a.active{
+        color: sandybrown;
+    }

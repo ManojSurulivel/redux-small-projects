@@ -1,0 +1,23 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .crypto-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .crypto-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  .crypto-details {
+    margin-top: 20px;
+  }
+  

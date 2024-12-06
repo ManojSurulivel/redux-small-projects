@@ -1,0 +1,51 @@
+.multi-theme {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .theme-toggle {
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .content.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .content.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .content.blue {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
